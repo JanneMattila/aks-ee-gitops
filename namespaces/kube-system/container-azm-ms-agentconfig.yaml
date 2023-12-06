@@ -10,10 +10,10 @@ data:
     [log_collection_settings]
        [log_collection_settings.stdout]
           enabled = true
-          exclude_namespaces = ["kube-system","gatekeeper-system","azure-iot-operations"]
+          exclude_namespaces = ["kube-system","gatekeeper-system","azure-iot-operations","azure-arc"]
        [log_collection_settings.stderr]
           enabled = true
-          exclude_namespaces = ["kube-system","gatekeeper-system","azure-iot-operations"]
+          exclude_namespaces = ["kube-system","gatekeeper-system","azure-iot-operations","azure-arc"]
        [log_collection_settings.env_var]
           enabled = true
        [log_collection_settings.enrich_container_logs]
